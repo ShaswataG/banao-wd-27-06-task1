@@ -1,6 +1,5 @@
 import coverImg from '../../assets/group-cover.svg'
 
-
 export default function GroupCover() {
     return (
         <section className="group-cover">

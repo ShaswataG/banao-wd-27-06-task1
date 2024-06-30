@@ -1,4 +1,4 @@
-import shareButton from '../../../../assets/share-post-button.svg';
+import shareButton from '../../../../assets/share-post-button.svg'
 
 export default function PostGeneric(props) {
     return (
@@ -9,9 +9,9 @@ export default function PostGeneric(props) {
             <p className="post-generic-description">{props.description}</p>
             <div>
                 <span className="post-generic-author">{props.author}</span>
-                <span className='post-views-and-share'>
+                <span className="post-views-and-share">
                     <span>{props.views}</span>
-                    <img src={shareButton}  alt="share button"/>
+                    <img src={shareButton} alt="share button" />
                 </span>
             </div>
         </div>
