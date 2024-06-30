@@ -5,7 +5,30 @@
     justify-content: space-around;
 }
 
+.header-desktop > div {
+    display: flex;
+    align-items: center;
+}
+
 .search-box {
     display: flex;
     align-items: center;
+    justify-content: start;
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 42px;
+    top: 16px;
+    left: 540px;
+    gap: 0px;
+    background-color: #F2F2F2;
+    border-radius: 21px;
+    opacity: 0px;
+}
+
+.search-box > input {
+    border: none;
+    background-color: inherit;
+    height: 100%;
+    width: 70%;
 }

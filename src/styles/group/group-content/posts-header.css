@@ -1,0 +1,15 @@
+.posts-header {
+    display: flex;
+    padding: 0 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.post-filter {
+    flex: 1;
+}
+
+.post-filter ul {
+    display: flex;
+    list-style: none;
+}

@@ -1,13 +1,18 @@
 .group-cover {
-    height: 440px;
-    background: url('../../../public/assets/cover/Rectangle 2.svg');
+    height: 50vh;
     color: #FFFFFF;
 }
 
+.group-cover > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .group-cover > div {
-    position: relative;
-    top: 268px;
-    left: 200px;  
+    position: absolute;
+    top: 35%;
+    left: 10%;
 }
 
 .group-cover h1 {
