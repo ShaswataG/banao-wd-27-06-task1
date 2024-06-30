@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useAuth } from '../App';
-import searchIcon from '../assets/baseline-search-24px.svg';
+import searchIcon from '../assets/search.svg';
 import logo from '../assets/logo.svg';
 import UserAccountButton from "./UserAccountButton";
 import CreateAccountButton from "./CreateAccountButton";

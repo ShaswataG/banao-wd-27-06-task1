@@ -1,4 +1,4 @@
-import coverImg from '../../assets/cover/cover.svg'
+import coverImg from '../../assets/group-cover.svg'
 
 
 export default function GroupCover() {
