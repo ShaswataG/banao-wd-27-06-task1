@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { useAuth } from '../App'
 import searchIcon from '../assets/search.svg'
 import logo from '../assets/logo.svg'

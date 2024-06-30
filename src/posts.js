@@ -1,4 +1,4 @@
-export default [
+const posts = [
     {
         img: 'Post1.svg',
         type: '✍️ Article',
@@ -40,3 +40,5 @@ export default [
         author: 'Joseph Gray'
     }
 ]
+
+export default posts
