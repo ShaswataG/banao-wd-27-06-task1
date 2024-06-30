@@ -1,0 +1,11 @@
+.header-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}

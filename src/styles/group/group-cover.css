@@ -1,0 +1,23 @@
+.group-cover {
+    height: 440px;
+    background: url('../../../public/assets/cover/Rectangle 2.svg');
+    color: #FFFFFF;
+}
+
+.group-cover > div {
+    position: relative;
+    top: 268px;
+    left: 200px;  
+}
+
+.group-cover h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.group-cover p {
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 14px;
+}
