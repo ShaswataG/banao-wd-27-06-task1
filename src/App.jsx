@@ -1,8 +1,8 @@
 import { useState, createContext, useContext } from 'react'
-import { BrowserRouter, Navigate, Routes, Route } from 'react-router-dom'
+import { Navigate, Routes, Route, HashRouter } from 'react-router-dom'
 import Header from './components/Header'
 import Group from './components/Group/Group'
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css'
 
 const UserContext = createContext()
 
@@ -13,7 +13,7 @@ export default function App() {
 
     return (
         <UserContext.Provider value={{ loggedIn, setLoggedIn }}>
-            <BrowserRouter>
+            <HashRouter>
                 <Header username={username} />
                 <Routes>
                     <Route
@@ -22,7 +22,7 @@ export default function App() {
                     ></Route>
                     <Route path="/groups/:id" to element={<Group />}></Route>
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </UserContext.Provider>
     )
 }
