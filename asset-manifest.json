@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/banao-wd-27-06-task1/static/css/main.f52c4e6a.css",
-    "main.js": "/banao-wd-27-06-task1/static/js/main.d9856ddd.js",
+    "main.js": "/banao-wd-27-06-task1/static/js/main.0ad4edd3.js",
     "static/media/group-cover.svg": "/banao-wd-27-06-task1/static/media/group-cover.fb8788d34d7ae13423df6b2921bb2978.svg",
     "static/media/logo.svg": "/banao-wd-27-06-task1/static/media/logo.1dc32e377e8988a460505b6325227243.svg",
     "static/media/share-post-button.svg": "/banao-wd-27-06-task1/static/media/share-post-button.69c0dd11b1bc7419542eeee65831ae94.svg",
@@ -13,10 +13,10 @@
     "static/media/more.svg": "/banao-wd-27-06-task1/static/media/more.36662f63b863d2a38e5c4ec785fc042a.svg",
     "static/media/calendar.svg": "/banao-wd-27-06-task1/static/media/calendar.27d352de032c385daa4da96d26600209.svg",
     "main.f52c4e6a.css.map": "/banao-wd-27-06-task1/static/css/main.f52c4e6a.css.map",
-    "main.d9856ddd.js.map": "/banao-wd-27-06-task1/static/js/main.d9856ddd.js.map"
+    "main.0ad4edd3.js.map": "/banao-wd-27-06-task1/static/js/main.0ad4edd3.js.map"
   },
   "entrypoints": [
     "static/css/main.f52c4e6a.css",
-    "static/js/main.d9856ddd.js"
+    "static/js/main.0ad4edd3.js"
   ]
 }
