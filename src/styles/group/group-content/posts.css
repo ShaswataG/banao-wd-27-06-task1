@@ -46,6 +46,11 @@
     padding-top: 1%;
 }
 
+#write-post {
+    background-color: #edeef0;
+    color: #000;
+}
+
 .post-author {
     display: flex;
     gap: 1vw;

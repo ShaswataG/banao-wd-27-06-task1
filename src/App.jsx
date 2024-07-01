@@ -2,11 +2,12 @@ import { useState, createContext, useContext } from 'react'
 import { BrowserRouter, Navigate, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Group from './components/Group/Group'
+import 'bootstrap/dist/css/bootstrap.css';
 
 const UserContext = createContext()
 
 export default function App() {
-    const [loggedIn, setLoggedIn] = useState(true)
+    const [loggedIn, setLoggedIn] = useState(false)
 
     const [username, setUsername] = useState('Siddharth Goyal')
 
