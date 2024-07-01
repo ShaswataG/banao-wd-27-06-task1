@@ -3,7 +3,7 @@ export default function RecommendedGroup(props) {
         <div className="recommended-group-container">
             <div className="recommended-group">
                 <img
-                    src={`../../../../assets/${props.img}`}
+                    src={`/banao-wd-27-06-task1/assets/${props.img}`}
                     alt={props.title}
                 />
                 <p>{props.title}</p>

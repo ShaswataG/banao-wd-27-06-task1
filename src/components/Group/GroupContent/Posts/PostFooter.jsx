@@ -5,7 +5,7 @@ export default function PostFooter({ post }) {
         <div className="post-footer">
             <div className='post-author'>
                 <img
-                    src={`../../../../../assets/${post.authorPic}`}
+                    src={`/banao-wd-27-06-task1/assets/${post.authorPic}`}
                     alt="author-pic"
                 />
                 <span className="post-generic-author">{post.author}</span>
