@@ -4,7 +4,7 @@ import PostFooter from './PostFooter'
 export default function PostGeneric({ post }) {
     return (
         <div className="post-generic">
-            <img src={`../../../../../assets/${post.img}`} alt={post.img} />
+            <img src={`/assets/${post.img}`} alt={post.img} />
             <div className="post-generic-content">
                 <div className="post-generic-type">{post.type}</div>
                 <div className="post-generic-header">

@@ -6,7 +6,7 @@ import locationIcon from '../../../../assets/location.svg'
 export default function PostMeetup({ post }) {
     return (
         <div className="post-generic post-non-generic">
-            <img src={`../../../../../assets/${post.img}`} alt={post.img} />
+            <img src={`/assets/${post.img}`} alt={post.img} />
             <div className="post-generic-content">
                 <div className="post-generic-type">{post.type}</div>
                 <div className="post-generic-header">
