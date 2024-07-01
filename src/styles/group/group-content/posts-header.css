@@ -1,8 +1,41 @@
 .posts-header {
     display: flex;
+    align-items: center;
     padding: 0 40px;
     width: 100%;
     box-sizing: border-box;
+    padding: 30px 40px;
+    /* border-bottom: solid #E0E0E0 1px; */
+    /* margin-bottom: 10px; */
+}
+
+.post-filter {
+    margin-left: 13vw;
+}
+
+.post-header-bottom-line {
+    width: 68vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: solid #E0E0E0 1px;
+}
+
+.posts-header > button {
+    width: 133px;
+    height: 36px;
+    top: 92px;
+    left: 957px;
+    gap: 0px;
+    border-radius: 4px;
+    border: none;
+}
+
+.posts-header > button:first-of-type {
+    margin-right: 1vw;
+}
+
+.posts-header > button:nth-of-type(2) {
+    margin-right: 14vw;
 }
 
 .post-filter {

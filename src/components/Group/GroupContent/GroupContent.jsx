@@ -6,8 +6,10 @@ export default function GroupContent() {
     return (
         <>
             <PostsHeader />
-            <Posts />
-            <SidePanel />
+            <section className='group-content-inner-container'>
+                <Posts />
+                <SidePanel />
+            </section>
         </>
     )
 }

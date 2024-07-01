@@ -1,38 +1,33 @@
-import shareButton from '../../../../assets/share-post-button.svg'
+import PostFooter from './PostFooter'
+import PostActions from './PostActions'
+import calendarIcon from '../../../../assets/calendar.svg'
+import locationIcon from '../../../../assets/location.svg'
 
-export default function PostMeetup(props) {
+export default function PostMeetup({ post }) {
     return (
-        <div className="post-generic">
-            <img src={`../../../../../assets/${props.img}`} alt={props.img} />
-            <p className="post-generic-type">{props.type}</p>
-            <h3 className="post-generic-title">{props.title}</h3>
-            <p className="post-generic-description">{props.description}</p>
-            <div>
-                <span>
-                    <img
-                        src="../../../../assets/calendar.svg"
-                        alt="calendar symbol"
-                    />
-                    <p>
-                        {props.date.day}, {props.date.date} {props.date.month},{' '}
-                        {props.date.year}
-                    </p>
-                </span>
-                <span>
-                    <img
-                        src="../../../../assets/location.svg"
-                        alt="location symbol"
-                    />
-                    <p>{props.location}</p>
-                </span>
-            </div>
-            <button>{props.button}</button>
-            <div>
-                <span className="post-generic-author">{props.author}</span>
-                <span className="post-views-and-share">
-                    <span>{props.views}</span>
-                    <img src={shareButton} alt="share button" />
-                </span>
+        <div className="post-generic post-non-generic">
+            <img src={`../../../../../assets/${post.img}`} alt={post.img} />
+            <div className="post-generic-content">
+                <div className="post-generic-type">{post.type}</div>
+                <div className="post-generic-header">
+                    <h3 className="post-generic-title">{post.title}</h3>
+                    <PostActions />
+                </div>
+                <div className="post-date-venue">
+                    <span className="post-meetup-calendar">
+                        <img src={calendarIcon} alt="calendar symbol" />
+                        <span>
+                            {post.date.day}, {post.date.date} {post.date.month},{' '}
+                            {post.date.year}
+                        </span>
+                    </span>
+                    <span className="post-meetup-calendar">
+                        <img src={locationIcon} alt="location symbol" />
+                        <span>{post.location}</span>
+                    </span>
+                </div>
+                <button className="post-button">{post.button}</button>
+                <PostFooter post={post} />
             </div>
         </div>
     )

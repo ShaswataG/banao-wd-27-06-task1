@@ -1,5 +1,5 @@
 import { useState, createContext, useContext } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Navigate, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Group from './components/Group/Group'
 
@@ -15,7 +15,11 @@ export default function App() {
             <BrowserRouter>
                 <Header username={username} />
                 <Routes>
-                    <Route path="/" to element={<Group />}></Route>
+                    <Route
+                        path="/"
+                        element={<Navigate to="/groups/1" />}
+                    ></Route>
+                    <Route path="/groups/:id" to element={<Group />}></Route>
                 </Routes>
             </BrowserRouter>
         </UserContext.Provider>

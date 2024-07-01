@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding: 10px;
 }
 
 .header-desktop > div {
@@ -23,7 +24,6 @@
     gap: 0px;
     background-color: #f2f2f2;
     border-radius: 21px;
-    opacity: 0px;
 }
 
 .search-box > input {
@@ -31,4 +31,9 @@
     background-color: inherit;
     height: 100%;
     width: 70%;
+}
+
+.create-account-button > span:last-of-type {
+    color: #2F6CE5;
+
 }

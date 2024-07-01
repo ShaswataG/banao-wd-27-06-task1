@@ -1,18 +1,20 @@
-import shareButton from '../../../../assets/share-post-button.svg'
+import PostActions from './PostActions'
+import PostFooter from './PostFooter'
 
-export default function PostGeneric(props) {
+export default function PostGeneric({ post }) {
     return (
         <div className="post-generic">
-            <img src={`../../../../../assets/${props.img}`} alt={props.img} />
-            <p className="post-generic-type">{props.type}</p>
-            <h3 className="post-generic-title">{props.title}</h3>
-            <p className="post-generic-description">{props.description}</p>
-            <div>
-                <span className="post-generic-author">{props.author}</span>
-                <span className="post-views-and-share">
-                    <span>{props.views}</span>
-                    <img src={shareButton} alt="share button" />
-                </span>
+            <img src={`../../../../../assets/${post.img}`} alt={post.img} />
+            <div className="post-generic-content">
+                <div className="post-generic-type">{post.type}</div>
+                <div className="post-generic-header">
+                    <h3 className="post-generic-title">{post.title}</h3>
+                    <PostActions />
+                </div>
+                <div className="post-generic-description">
+                    {post.description}
+                </div>
+                <PostFooter post={post} />
             </div>
         </div>
     )

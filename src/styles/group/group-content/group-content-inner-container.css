@@ -1,0 +1,8 @@
+.group-content-inner-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 5vw;
+    box-sizing: border-box;
+}

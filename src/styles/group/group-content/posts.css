@@ -1,97 +1,67 @@
 .posts {
-    width: 692px;
-    height: 1751px;
-    /* top: 628px;
-    left: 200px;
-    gap: 0px;
-    opacity: 0px; */
+    width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 3vh;
 }
 
 .post-generic {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 13px;
-    /* align-items: center; */
-    width: 692px;
-    height: 472px;
-    top: 628px;
-    left: 200px;
-    gap: 0px;
+    width: 80%;
     border-radius: 4px;
     border: solid 1px #e0e0e0;
-    opacity: 0px;
 }
 
-.post-generic > img {
-    width: 692px;
-    height: 220px;
-    top: 628px;
-    left: 200px;
-    gap: 0px;
-    border-radius: 4px 4px 0px 0px;
-    opacity: 0px;
-}
-
-.post-generic > div {
-    padding: 0 30px;
+.post-generic-header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    justify-content: space-between;
 }
 
-.post-generic > div > span {
-    display: flex;
-    flex-direction: row;
-}
-
-.post-generic h3 {
-    font-family: IBM Plex Sans;
-    font-size: 22px;
-    line-height: 29.52px;
-    text-align: left;
-}
-
-.post-generic-type {
-    font-family: IBM Plex Sans;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23.4px;
-    text-align: left;
-    margin: 0 8px;
+.post-generic-header > div {
+    cursor: pointer;
 }
 
 .post-generic-title {
-    font-family: IBM Plex Sans;
-    font-size: 22px;
-    line-height: 29.52px;
-    text-align: left;
-    margin: 0 8px;
+    margin: 0;
+}
+
+.post-generic > img {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.post-generic-content {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    gap: 2vh;
+}
+
+.post-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.post-author {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.post-generic-type {
+    font-size: 18px;
 }
 
 .post-generic-description {
-    font-family: IBM Plex Sans;
     font-size: 19px;
-    line-height: 25.49px;
-    text-align: left;
     color: #5c5c5c;
-    margin: 0 8px;
 }
 
-/* .post-generic > div > span:first-of-type {
-    font-family: IBM Plex Sans;
-    font-size: 18px;
-    line-height: 23.4px;
-    text-align: left;
-} */
-
 .post-generic-author {
-    font-family: IBM Plex Sans;
     font-size: 18px;
     line-height: 23.4px;
     text-align: left;
@@ -99,24 +69,38 @@
 
 .post-views-and-share {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 2vw;
+    color: #525252;
 }
 
-.post-generic > button {
-    width: 652px;
-    height: 38px;
-    top: 1956px;
-    left: 220px;
-    gap: 0px;
+.post-views-and-share > img {
+    cursor: pointer;
+}
+
+.post-meetup-calendar {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.post-date-venue {
+    display: flex;
+    gap: 4vw;
+}
+
+.post-button {
+    height: 3.5vh;
     border-radius: 8px;
     border: 0.7px solid #a9aeb8;
-    opacity: 0px;
     background-color: #ffffff;
-    font-family: IBM Plex Sans;
     font-size: 13px;
     line-height: 18.25px;
     text-align: center;
     color: #e56135;
+    cursor: pointer;
+}
+
+.post-non-generic {
+    gap: 5px;
 }
